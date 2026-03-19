@@ -18,7 +18,7 @@ st.set_page_config(
 def get_openai_client():
     """Initialize and cache the OpenAI client"""
     client = OpenAI(
-        api_key="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",  # Paste key directly
+        api_key="Paste key directly",  # Paste key directly
         base_url="https://openrouter.ai/api/v1"
     )
     return client
